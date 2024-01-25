@@ -1,0 +1,96 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Jan 25 16:11:29 2024
+# Process ID: 6729
+# Current directory: /nfs/home/m1info4/Documents/VHDL
+# Command line: vivado
+# Log file: /nfs/home/m1info4/Documents/VHDL/vivado.log
+# Journal file: /nfs/home/m1info4/Documents/VHDL/vivado.jou
+# Running On: secil5.siame.univ-tlse3.fr, OS: Linux, CPU Frequency: 3944.645 MHz, CPU Physical cores: 8, Host memory: 16464 MB
+#-----------------------------------------------------------
+start_gui
+create_project zybo-tp1 /nfs/home/m1info4/Documents/VHDL/zybo-tp1 -part xc7z020clg400-1
+set_property board_part digilentinc.com:zybo-z7-20:part0:1.2 [current_project]
+set_property  ip_repo_paths  /nfs/xilinx/vivado-library [current_project]
+update_ip_catalog
+set_property target_language VHDL [current_project]
+add_files -norecurse /nfs/home/m1info4/Documents/VHDL/exo1/pulse_gen.vhd
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /nfs/home/m1info4/Documents/VHDL/exo1/test_pulse_gen.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source test_pulse_gen.tcl
+close_sim
+launch_simulation
+source test_pulse_gen.tcl
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_simulation -simset sim_1 -mode post-synthesis -type timing
+launch_simulation -mode post-synthesis -type timing
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_design
+launch_simulation -mode post-synthesis -type timing
+source test_pulse_gen.tcl
+restart
+run all
+run all
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type timing
+source test_pulse_gen.tcl
+restart
+run all
+restart
+run all
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type timing
+source test_pulse_gen.tcl
+restart
+restart
+run all
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type timing
+source test_pulse_gen.tcl
+restart
+run all
+run all
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type timing
+source test_pulse_gen.tcl
+restart
+run all
+restart
+run all
+add_files -fileset utils_1 -norecurse /nfs/home/m1info4/Documents/VHDL/zybo-tp1/pulse_gen_synth.pre.tcl
+copy_run -name synth_1_copy_1 [get_runs synth_1] 
+set_property STEPS.SYNTH_DESIGN.TCL.PRE [ get_files /nfs/home/m1info4/Documents/VHDL/zybo-tp1/pulse_gen_synth.pre.tcl -of [get_fileset utils_1] ] [get_runs synth_1]
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type timing
+source test_pulse_gen.tcl
+run all
