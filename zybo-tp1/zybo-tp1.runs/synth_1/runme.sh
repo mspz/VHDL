@@ -21,7 +21,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/nfs/home/m1info4/Documents/VHDL/zybo-tp1/zybo-tp1.runs/synth_1'
+HD_PWD='/nfs/home/m1info4/Documents/git/VHDL/zybo-tp1/zybo-tp1.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

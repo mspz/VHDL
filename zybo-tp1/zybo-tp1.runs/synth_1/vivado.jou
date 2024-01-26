@@ -3,12 +3,12 @@
 # SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Thu Jan 25 17:30:06 2024
-# Process ID: 30414
-# Current directory: /nfs/home/m1info4/Documents/VHDL/zybo-tp1/zybo-tp1.runs/synth_1
+# Start of session at: Fri Jan 26 10:34:24 2024
+# Process ID: 53681
+# Current directory: /nfs/home/m1info4/Documents/git/VHDL/zybo-tp1/zybo-tp1.runs/synth_1
 # Command line: vivado -log pulse_gen.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pulse_gen.tcl
-# Log file: /nfs/home/m1info4/Documents/VHDL/zybo-tp1/zybo-tp1.runs/synth_1/pulse_gen.vds
-# Journal file: /nfs/home/m1info4/Documents/VHDL/zybo-tp1/zybo-tp1.runs/synth_1/vivado.jou
-# Running On: secil5.siame.univ-tlse3.fr, OS: Linux, CPU Frequency: 3757.171 MHz, CPU Physical cores: 8, Host memory: 16464 MB
+# Log file: /nfs/home/m1info4/Documents/git/VHDL/zybo-tp1/zybo-tp1.runs/synth_1/pulse_gen.vds
+# Journal file: /nfs/home/m1info4/Documents/git/VHDL/zybo-tp1/zybo-tp1.runs/synth_1/vivado.jou
+# Running On: secil5.siame.univ-tlse3.fr, OS: Linux, CPU Frequency: 3927.310 MHz, CPU Physical cores: 8, Host memory: 16464 MB
 #-----------------------------------------------------------
 source pulse_gen.tcl -notrace

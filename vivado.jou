@@ -94,3 +94,5 @@ close_design
 launch_simulation -mode post-synthesis -type timing
 source test_pulse_gen.tcl
 run all
+close_sim
+close_sim
