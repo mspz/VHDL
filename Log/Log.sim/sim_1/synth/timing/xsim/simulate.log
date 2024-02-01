@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Failure: FIN DE SIMULATION
+Time: 260 us  Iteration: 0  Process: /test_log2/P_TEST  File: /nfs/home/m1info4/Downloads/test_log2.vhd
+$finish called at time : 260 us : File "/nfs/home/m1info4/Downloads/test_log2.vhd" Line 110

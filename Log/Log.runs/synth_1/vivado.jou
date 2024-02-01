@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Feb  1 16:47:34 2024
+# Process ID: 100708
+# Current directory: /nfs/home/m1info4/Documents/git/VHDL/Log/Log.runs/synth_1
+# Command line: vivado -log log2_hw.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source log2_hw.tcl
+# Log file: /nfs/home/m1info4/Documents/git/VHDL/Log/Log.runs/synth_1/log2_hw.vds
+# Journal file: /nfs/home/m1info4/Documents/git/VHDL/Log/Log.runs/synth_1/vivado.jou
+# Running On: secil5.siame.univ-tlse3.fr, OS: Linux, CPU Frequency: 3981.892 MHz, CPU Physical cores: 8, Host memory: 16464 MB
+#-----------------------------------------------------------
+source log2_hw.tcl -notrace

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/nfs/home/m1info4/Downloads/log2_hw.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'log2_hw'
+INFO: [VRFC 10-163] Analyzing VHDL file "/nfs/home/m1info4/Downloads/test_log2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test_log2'

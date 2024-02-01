@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/nfs/home/m1info4/Documents/git/VHDL/Log/Log.sim/sim_1/synth/timing/xsim/test_log2_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module log2_hw
+INFO: [VRFC 10-311] analyzing module glbl
